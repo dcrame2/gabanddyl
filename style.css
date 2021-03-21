@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+
+}
+
+.wrapper {
+    text-align: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.header {
+    background-image: url(img/az.jpg);
+}
+
+.item1 {
+    /* background-image: url(img/az.jpg); */
+}
+
+.item2 {
+    background-image: url(img/miami.jpg);
+}
+
+.item3 {
+    background-image: url(img/vegas.jpg);
+}
+
+.item4 {
+    background-color: grey;
+}
+
+h1 {
+    padding-top: 300px;
+    font-size: 5rem;
+    font-family: 'Ranchers', cursive;
+
+}
+
+h2 {
+    margin-top: 3%;
+    font-size: 2.5rem;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 1.5px;
+}
+
+.gabby-img {
+    
+    width: 300px;
+    height: 200px;
+    
+}
+
+.dylan-img {
+    
+    width: 200px;
+    height: 200px;
+    
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+}
+
+
+
+
+.lovers {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gab {
+    border-radius: 12px;
+    background-color: #0ABAB5;
+    margin: 5%;
+    padding: 50px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.dyl {
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 12px;
+    background-color: #ffcccb;
+    margin: 5%;
+    padding: 50px;
+}
+
+.lovers-p {
+    margin: 3% 10%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.title-p {
+    /* color: #fff; */
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 2% 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* hr {
+    margin: 30px 0;
+    width: 10%;
+    position: absolute;
+    right: 45%;
+} */
+
+
+
+
+
+
