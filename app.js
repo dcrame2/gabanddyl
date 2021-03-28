@@ -33,7 +33,28 @@ const container = document.querySelector('.container')
 const toggle = document.querySelector('.toggle');
 const nav = document.querySelector('nav');
 
+const timeline = document.querySelector('.timeline');
+const timelineCon = document.querySelector('.timeline-container');
+
 toggle.addEventListener('click', () => {
     toggle.classList.toggle('active');
-    nav.classList.toggle('active');
+    // nav.classList.toggle('active');
+});
+
+
+
+timeline.addEventListener('click', () => {
+    toggle.classList.toggle('active');
+
+    timelineCon.style.display = "none";
+    timelineCon.classList.add('active');
+    toggle.addEventListener('click', () => {
+        
+        
+        timelineCon.classList.remove('active');
+        timelineCon.style.display = "flex";
+        
+    });
+    
+    
 });
