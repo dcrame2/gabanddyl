@@ -42,6 +42,13 @@ h2 {
     
 }
 
+h3 {
+  position: relative;
+  top: 400px;
+  font-size: 3rem;
+  color: #fff;
+}
+
 
 .title-p {
     font-family: 'Dancing Script', cursive;
@@ -118,6 +125,54 @@ nav.active ul li a {
 
 nav.active ul li a:hover {
   color: #a1caf1;
+}
+
+.btn {
+  display: flex;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* TIMELINE */
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+.timeline {
+  background-color: #a1caf1;
+  margin: 70px 10px 10px;
+  width: 20%;
+  border-radius: 12px;
+  /* display: none; */
+}
+
+
+.timeline-container.active {
+  background-color: #ccc;
+  
+}
+
+h4 {
+  color: #fff;
+  position: relative;
+  top: 10px;
+  font-size: 5rem;
+}
+
+p {
+  display: none;
+}
+
+.year {
+  display: none;
 }
 
 
