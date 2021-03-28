@@ -5,42 +5,21 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #a1caf1;
+    /* background-color: #a1caf1; */
     overflow-x: hidden;
     color: #222;
     margin: 0;
   }
 
-.container {
 
-}
 
 .wrapper {
     text-align: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    
-}
-
-.header {
+    z-index: 10;
     background-image: url(img/az.jpg);
-}
-
-.item1 {
-    /* background-image: url(img/az.jpg); */
-}
-
-.item2 {
-    background-image: url(img/miami.jpg);
-}
-
-.item3 {
-    background-image: url(img/vegas.jpg);
-}
-
-.item4 {
-    background-color: grey;
 }
 
 h1 {
@@ -63,115 +42,6 @@ h2 {
     
 }
 
-.gabby-img {
-    
-    width: 400px;
-    height: 400px;
-    
-}
-
-.dylan-img {
-    
-    width: 400px;
-    height: 400px;
-    
-}
-
-ul {
-    list-style-type: none;
-    line-height: 2;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited{
-    text-decoration: none;
-    color: #fff;
-}
-
-a:hover {
-    color: #a1caf1;
-}
-
-.lovers {
-    /* margin: 5%; */
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   
-}
-
-.gab:hover, .dyl:hover {
-    background-color: #ccc;
-    box-shadow: 5px 10px 18px #888888; 
-}
-
-
-.gab {
-    border-radius: 12px;
-    background-color: #a1caf1;
-    margin: 20px 100px;
-    padding: 100px;
-    
-    /* box-shadow: 5px 10px 18px #888888; */
-}
-
-.container.hover {
-   background-color: #ccc;
-    height: 100vh;
-    width: 100vw;
-    transition: h1 1s, background-color 1s;
-}
-
-/* .lovers.hover {
-    background-color: #ccc;
- 
- } */
-
-.details.show, .details1.show {
-    color: #fff;
-    position: absolute;
-    text-align: center;
-    
-    
-}
-
-
-
-.details, .details1 {
-    display: none;
-    
-}
-
-
-
-
-.dyl {
-    /* box-shadow: 5px 10px 18px #888888; */
-    border-radius: 12px;
-    background-color: #a1caf1;
-    margin: 20px 100px;
-    padding: 100px;
-}
-
-hr {
-    width: 10%;
-    margin: 10px 45%;
-    border: none;
-    border-bottom: dashed #a1caf1;
-}
-
-.lovers-p {
-    margin: 3% 10%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    color: #fff;
-    
-}
 
 .title-p {
     font-family: 'Dancing Script', cursive;
@@ -181,128 +51,81 @@ hr {
     letter-spacing: 1.2px;
 }
 
-.dyl ul, .gab ul {
-    font-family: 'Montserrat', sans-serif;
+
+
+
+/* NAVIGATION */
+.toggle {
+  position: fixed;
+  background: #a1caf1 url(/img/menu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.toggle.active {
+  background: #a1caf1 url(../img/close.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.active {
+  left: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  position: relative;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+  text-align: center;
+
+}
+
+nav.active ul li a {
+  font-size: 2.2rem;
+  color: #111;
+  text-decoration: none;
+  font-weight:  300;
+
+}
+
+nav.active ul li a:hover {
+  color: #a1caf1;
 }
 
 
 
-/* hr {
-    margin: 30px 0;
-    width: 10%;
-    position: absolute;
-    right: 45%;
-} */
-
-.about-header {
-    padding-top: 20px;
-    text-align: center;
-}
 
 
 
 
-
-
-/* Copy from Rotating Navigation Project */
-.container {
-    background-color: #fafafa;
-    transform-origin: top left;
-    transition: transform 0.5s linear;
-    width: 100vw;
-    min-height: 100vh;
-    /* padding: 50px; */
-  }
-  
-  .container.show-nav {
-    transform: rotate(-20deg);
-  }
-  
-  .circle-container {
-    position: fixed;
-    top: -100px;
-    left: -100px;
-  }
-  
-  .circle {
-    background-color: #a1caf1;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: relative;
-    transition: transform 0.5s linear;
-  
-  }
-  
-  .container.show-nav .circle {
-    transform: rotate(-70deg);
-  } 
-  
-  .circle button {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 100px;
-    background: transparent;
-    border: 0;
-    font-size: 26px;
-    color: #fff;
-  }
-  
-  .circle button:focus {
-    outline: none;
-  }
-  
-  .circle button#open {
-    left: 60%;
-  }
-  
-  .circle button#close {
-    top: 60%;
-    transform: rotate(90deg);
-    transform-origin: top left;
-  }
-  
-  .container.show-nav + nav li {
-    transform: translateX(0);
-    transition-delay: 0.3s;
-  }
-  
-  nav {
-    position: fixed;
-    bottom: 40px;
-    left: 0;
-    z-index: 100;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding-left: 30px;
-  }
-  
-  nav ul li {
-    text-transform: uppercase;
-    color: #fff;
-    margin: 40px 0;
-    transform: translateX(-100%);
-    transition: transform 0.4s ease-in;
-  }
-  
-  nav ul li i {
-    font-size: 20px;
-    margin-right: 10px;
-  }
-  
-  nav ul li + li {
-    margin-left: 15px;
-    transform: translateX(-150%);
-  }
-  
-  nav ul li + li + li {
-    margin-left: 30px;
-    transform: translateX(-200%);
-  }
 
 
 
