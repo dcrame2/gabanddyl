@@ -33,28 +33,42 @@ const container = document.querySelector('.container')
 const toggle = document.querySelector('.toggle');
 const nav = document.querySelector('nav');
 
-const timeline = document.querySelector('.timeline');
+const timeline = document.querySelectorAll('.timeline');
 const timelineCon = document.querySelector('.timeline-container');
 
 toggle.addEventListener('click', () => {
     toggle.classList.toggle('active');
-    // nav.classList.toggle('active');
+    nav.classList.toggle('active');
 });
 
 
+timeline.forEach(timelines => {
+    timelines.addEventListener('click', () => {
+        removeActiveClass();
+        timelines.classList.add('active');
+    })
+})
 
-timeline.addEventListener('click', () => {
-    toggle.classList.toggle('active');
-
-    timelineCon.style.display = "none";
-    timelineCon.classList.add('active');
-    toggle.addEventListener('click', () => {
-        
-        
-        timelineCon.classList.remove('active');
-        timelineCon.style.display = "flex";
-        
+function removeActiveClass() {
+    timeline.forEach(timelines => {
+        timelines.classList.remove('active');
     });
+}
+
+
+
+// timeline.addEventListener('click', () => {
+//     toggle.classList.toggle('active');
+
+//     timelineCon.style.display = "none";
+//     timelineCon.classList.add('active');
+//     toggle.addEventListener('click', () => {
+        
+        
+//         timelineCon.classList.remove('active');
+//         timelineCon.style.display = "flex";
+        
+//     });
     
     
-});
+// });

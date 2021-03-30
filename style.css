@@ -140,24 +140,32 @@ nav.active ul li a:hover {
 /* TIMELINE */
 .timeline-container {
   display: flex;
+  
   justify-content: center;
   height: 100vh;
   text-align: center;
-  
 }
 
 .timeline {
-  background-color: #a1caf1;
-  margin: 70px 10px 10px;
-  width: 20%;
+   background-color: #a1caf1;
+   margin: 70px 10px 10px;
+   /* width: 20%; */
   border-radius: 12px;
-  /* display: none; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  position: relative;
+  transition: flex 0.7s ease-in;
 }
 
 
-.timeline-container.active {
+.timeline.active {
   background-color: #ccc;
-  
+  flex: 5;
 }
 
 h4 {
