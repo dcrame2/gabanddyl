@@ -20,6 +20,7 @@ body {
     height: 100vh;
     z-index: 10;
     background-image: url(img/az.jpg);
+    
 }
 
 h1 {
@@ -156,6 +157,7 @@ nav.active ul li a:hover {
   height: 300px;
   text-align: center;
   border-radius: 8px;
+  
 }
 
 
@@ -210,6 +212,7 @@ nav.active ul li a:hover {
 
 .timeline:hover {
   box-shadow: 0 0 10px;
+  transform: rotate(deg);
  
 }
 
