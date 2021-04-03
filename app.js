@@ -33,13 +33,15 @@ const container = document.querySelector('.container')
 const toggle = document.querySelector('.toggle');
 const nav = document.querySelector('nav');
 
-// const timeline = document.querySelectorAll('.timeline');
+const timeline = document.querySelectorAll('.timeline');
 // const timelineCon = document.querySelector('.timeline-container');
 
 toggle.addEventListener('click', () => {
     toggle.classList.toggle('active');
     nav.classList.toggle('active');
 });
+
+
 
 
 // timeline.forEach(timelines => {
