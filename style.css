@@ -42,11 +42,14 @@ h2 {
     
 }
 
-h3 {
+.timeline h3 {
   position: relative;
-  top: 400px; 
-  font-size: 2rem;
+  top: 250px;
+  /* left: 30px; */
+  font-size: 1.5rem;
   color: #fff;
+  border: solid 1px #fff;
+  margin: 0 75px;
 }
 
 
@@ -139,6 +142,78 @@ nav.active ul li a:hover {
 
 /* TIMELINE */
 .timeline-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 100px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline {
+  background-color: #ccc;
+  /* width: 100%; */
+  height: 300px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+
+.timeline-container .timeline.year2021 {
+  background: url(img/img-2021.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2020 {
+  background: url(img/vegas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2019 {
+  background: url(img/img-2019.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2018 {
+  background: url(img/img-2018.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2017 {
+  background: url(img/img-2017.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2016 {
+  background: url(img/img-2016.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2015 {
+  background: url(img/img-2015.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline-container .timeline.year2014 {
+  background: url(img/img-2014.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.timeline:hover {
+  box-shadow: 0 0 10px;
+ 
+}
+
+/* .timeline-container {
   display: flex;
   
   justify-content: center;
@@ -149,7 +224,7 @@ nav.active ul li a:hover {
 .timeline {
    background-color: #a1caf1;
    margin: 70px 10px 10px;
-   /* width: 20%; */
+  //width: 20%; 
   border-radius: 12px;
   background-size: cover;
   background-position: center;
@@ -181,7 +256,20 @@ p {
 
 .year {
   display: none;
+} */
+
+@media (max-width: 1175px) {
+  .timeline-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+@media (max-width: 500px) {
+  .timeline-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 
 
 
