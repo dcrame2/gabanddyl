@@ -282,6 +282,10 @@ p {
   .timeline-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .statement {
+    padding: 0 100px;
+  }
 }
 
 @media (max-width: 500px) {
