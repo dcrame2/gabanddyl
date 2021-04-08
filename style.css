@@ -24,10 +24,8 @@ body {
 }
 
 h1 {
-    /* padding-top: 300px; */
     font-size: 5.5rem;
     font-family: 'Ranchers', cursive;
-
 }
 
 .name-header {
@@ -40,7 +38,6 @@ h1 {
 
 .content {
   text-align: center;
- 
 }
 
 
@@ -50,14 +47,11 @@ h2 {
     font-size: 2.5rem;
     font-family: 'Ranchers', cursive;
     letter-spacing: 1.5px;
-    /* border-bottom: 4px solid #fff; */
-    
 }
 
 .timeline h3 {
   position: relative;
   top: 250px;
-  /* left: 30px; */
   font-size: 1.5rem;
   color: #fff;
   border: solid 1px #fff;
@@ -174,10 +168,7 @@ nav.active ul li a:hover {
   height: 300px;
   text-align: center;
   border-radius: 8px;
-  
 }
-
-
 
 .timeline-container .timeline.year2021 {
   background: url(img/img-2021.jpeg);
@@ -233,50 +224,7 @@ nav.active ul li a:hover {
  
 }
 
-/* .timeline-container {
-  display: flex;
-  
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
-}
 
-.timeline {
-   background-color: #a1caf1;
-   margin: 70px 10px 10px;
-  //width: 20%; 
-  border-radius: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  color: #fff;
-  cursor: pointer;
-  flex: 0.5;
-  position: relative;
-  transition: flex 0.7s ease-in;
-}
-
-
-.timeline.active {
-  background-color: #ccc;
-  flex: 5;
-}
-
-h4 {
-  color: #fff;
-  position: relative;
-  top: 10px;
-  font-size: 5rem;
-}
-
-p {
-  display: none;
-}
-
-.year {
-  display: none;
-} */
 
 @media (max-width: 1175px) {
   .timeline-container {
@@ -292,6 +240,10 @@ p {
   .timeline-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .wrapper {
+    background: none;
+  }
+    
 }
 
 
