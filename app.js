@@ -16,8 +16,69 @@ toggle.addEventListener('click', () => {
 
 
 
-    $(".timeline").click(function(){
-      $(".timeline-container").css("display", "none");
+    $(".timeline.year2021").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2021").show();
+
+      // toggle.classList.toggle('active');
+      // toggle.addEventListener('click', () => {
+      //   $("body").show();
+      //   // nav.classList.toggle('active');
+      // });
+    });
+
+
+    $(".timeline.year2020").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2020").show();
+    });
+
+
+    $(".timeline.year2019").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2019").show();
+    });
+
+
+    $(".timeline.year2018").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2018").show();
+    });
+
+    $(".timeline.year2017").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2017").show();
+    });
+
+    $(".timeline.year2016").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2016").show();
+    });
+
+    $(".timeline.year2015").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2015").show();
+    });
+
+    $(".timeline.year2014").click(function(){
+
+      $(".timeline-container").hide();
+      $('.wrapper').hide();
+      $(".y2014").show();
     });
  
 
