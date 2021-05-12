@@ -37,11 +37,12 @@ h1 {
 }
 
 .loml-header {
-  padding: 200px 0 50px;
+  padding: 100px 0 50px;
 }
 
 .content {
   text-align: center;
+  padding: 0 0 20%;
 }
 
 
@@ -60,6 +61,7 @@ h2 {
   color: #fff;
   border: solid 1px #fff;
   margin: 0 75px;
+  z-index: 2;
 }
 
 
@@ -81,7 +83,42 @@ h2 {
 
 
 /* NAVIGATION */
-.toggle {
+
+nav {
+  /* position: absolute; */
+  right: 0;
+  position: fixed;
+  background: #faf3f3;
+  top:0;
+  left: 0;
+  box-shadow: 0 4px 10px -2px black;
+  z-index: 3;
+}
+nav ul {
+  right: 0;
+}
+
+nav ul li{
+  display:inline-block;
+  text-decoration: none;
+  margin: 10px 15px;
+  color: #fff;
+  /* list-style: none; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+a:visited {
+  text-decoration: none;
+}
+/* .toggle {
   position: fixed;
   background: #a1caf1 url(/img/menu.png);
   background-repeat: no-repeat;
@@ -153,7 +190,7 @@ nav.active ul li a:hover {
   margin: 10px;
   justify-content: center;
   align-items: center;
-}
+} */
 
 
 /* TIMELINE */
@@ -161,7 +198,7 @@ nav.active ul li a:hover {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  padding: 100px 50px;
+  padding: 50px 50px;
   justify-content: center;
   align-items: center;
 }
@@ -172,6 +209,12 @@ nav.active ul li a:hover {
   height: 300px;
   text-align: center;
   border-radius: 8px;
+}
+
+.timeline-header {
+  text-align: center;
+  padding: 5% 0 0;
+  font-size: 2.5rem;
 }
 
 .timeline-container .timeline.year2021 {
@@ -235,15 +278,22 @@ nav.active ul li a:hover {
    margin: 20px;
 }
 
+
+.y2021 ul li, .y2020 ul li, .y2019 ul li, .y2018 ul li, .y2017 ul li, .y2016 ul li,
+ .y2015 ul li , .y2014 ul li {
+  list-style: none;
+}
+
+
+
 .header { 
   font-size: 100px;
+  padding: 20px 0 5px 0;
 }
 
 
 
-.timeline.year2021.active {
 
-}
 
 
 
