@@ -133,11 +133,11 @@
     });
 
     $(".timeline.year2014").click(function(){
-      
+      $(".y2014").show();
       $('.wrapper').hide();
       $('#about').hide();
       $('#loml').hide();
-      $(".y2014").show();
+      
 
       $('.aboutus').click(function() {
         
