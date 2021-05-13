@@ -22,6 +22,7 @@
       $('#loml').hide();
       $(".y2021").show();
       
+      
 
       $('.aboutus').click(function() {
         $(".y2021").hide();
@@ -34,10 +35,12 @@
 
 
     $(".timeline.year2020").click(function(){
+      $(".y2020").show();
       $('#about').hide();
       $('.wrapper').hide();
       $('#loml').hide();
-      $(".y2020").show();
+      
+      
       
 
       $('.aboutus').click(function() {
