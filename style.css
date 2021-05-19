@@ -40,12 +40,15 @@ h1 {
 
 .loml-header {
   padding: 100px 0 50px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5rem;
+  margin: 0 200px;
 }
 
 
 
 #loml i {
-  font-size: 100px;
+  font-size: 75px;
   opacity: 0.2;
   color: red;
   transform: rotateZ(40deg);
@@ -54,7 +57,7 @@ h1 {
 
 .content {
   text-align: center;
-  padding: 0 0 20%;
+  padding: 0 0 10%;
 }
 
 #about {
@@ -170,48 +173,56 @@ a:visited {
   background: url(img/img-2021.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2020 {
   background: url(img/vegas.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2019 {
   background: url(img/img-2019.JPG);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2018 {
   background: url(img/img-2018.JPG);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2017 {
   background: url(img/img-2017.JPG);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2016 {
   background: url(img/img-2016.JPG);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2015 {
   background: url(img/img-2015.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline-container .timeline.year2014 {
   background: url(img/img-2014.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .timeline:hover {
@@ -306,12 +317,42 @@ hr {
 
 #footer .footer-container ul {
   display: flex;
-  margin: 0 10%;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 10%; */
   
 }
 
 #footer .footer-container ul li {
-  margin: 0 3%;
+  margin: 0 2%;
+  list-style-type: none;
+}
+
+#footer .footer-container ul li i {
+  font-size: 30px;
+  
+}
+
+#footer .footer-container ul a:visited {
+  text-decoration: none;
+}
+
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-twitter-square {
+  color: #00acee;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.fa-instagram-square {
+  color: #d6249f; 
+  /* color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
 }
 
 
@@ -328,6 +369,40 @@ hr {
   .statement {
     padding: 0 100px;
   }
+
+  .loml-header {
+    font-size: 3rem;
+    /* padding: 100px 0 50px; */
+    margin: 0 50px;
+  }
+
+  #loml i {
+    font-size: 3rem;
+  }
+
+  .timeline-container .timeline.year2021 {
+    /* background-size: cover; */
+    background-position: center center;
+   
+  }
+
+  .timeline-container .timeline.year2020 {
+    /* background-size: cover; */
+    background-position: center center;
+   
+  }
+
+  .timeline-container .timeline.year2019 {
+    /* background-size: cover; */
+    background-position: center center;
+   
+  }
+
+  .timeline-container .timeline.year2018 {
+    /* background-size: cover; */
+    background-position: center center;
+   
+  }
 }
 
 @media (max-width: 500px) {
@@ -336,6 +411,16 @@ hr {
   }
   .wrapper {
     background: none;
+  }
+
+  .loml-header {
+    font-size: 2.5rem;
+    /* padding: 100px 0 50px; */
+    margin: 0 50px;
+  }
+
+  #loml i {
+    font-size: 2.5rem;
   }
     
 }
