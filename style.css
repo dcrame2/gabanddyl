@@ -227,7 +227,7 @@ a:visited {
 
 .timeline:hover {
   box-shadow: 0 0 10px;
-  transform: rotate(deg);
+  transform: scale(1.01);
  
 }
 
