@@ -257,8 +257,6 @@ a:visited {
   justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: #eee;
-  
-  
 }
 
 h5{
@@ -271,7 +269,7 @@ h5{
   border-radius: 10px;
   width: 300px;
   height: 100px;
-  margin: 20px 0 50px;
+  /* margin: 20px 0 50px; */
   padding: 50px 0 0;
   
 }
@@ -304,7 +302,6 @@ hr {
 .funtimes-pics-container {
   display: flex;
   flex-wrap: wrap;
-  
   align-items: center;
   justify-content: center;
 }
@@ -417,6 +414,16 @@ hr {
     /* padding: 100px 0 50px; */
     margin: 0 50px;
   }
+  .fun-pics {
+    width: 300px;
+    height: 300px;
+    padding: 2px;
+  
+    
+  }
+
+  
+ 
 
   #loml i {
     font-size: 2.5rem;
