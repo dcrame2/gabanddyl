@@ -263,15 +263,14 @@ a:visited {
 
 h5{
   font-size: 18px;
-  text-decoration: underline red;
 }
 
 
 .vacay, .friends, .dates{
-  border: 2px solid #222;
+  /* border: 2px solid #222; */
   border-radius: 10px;
   width: 300px;
-  height: 200px;
+  height: 100px;
   margin: 20px 0 50px;
   padding: 50px 0 0;
   
@@ -295,9 +294,9 @@ hr {
 
 
 .fun-pics {
-  width: 200px;
-  height: 200px;
-  padding: 5px;
+  width: 250px;
+  height: 300px;
+  padding: 3px;
 
   
 }
