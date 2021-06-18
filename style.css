@@ -34,6 +34,7 @@ h1 {
 .name-header {
     padding-top: 200px; 
     color: #fff;
+    /* text-shadow: 0 3px 20px -2px #000; */
 }
 
 
@@ -115,7 +116,7 @@ nav {
   background: #000;
   top:0;
   left: 0;
-  box-shadow: 0 3px 10px -2px #ccc;
+  box-shadow: 0 3px 10px -2px #fff;
   z-index: 3;
   font-family: 'Dancing Script', cursive;
   font-size: 18px;
@@ -130,6 +131,8 @@ nav ul li{
   margin: 10px 15px;
   color: #fff;
   /* list-style: none; */
+  font-size: 1.2rem;
+ 
 }
 
 nav ul li a {
@@ -441,9 +444,6 @@ hr {
   h5 {
     font-size: 15px;
   }
-
-  
-  
 
   
  
