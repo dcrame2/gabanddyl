@@ -1,51 +1,45 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
-    color: #222;
-    margin: 0;
-  }
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  color: #222;
+  margin: 0;
+}
 
-  .test {
-    font-size: 200px;
-  }
-
-
+.test {
+  font-size: 200px;
+}
 
 .wrapper {
-    text-align: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    background-image: url(img/az.jpg);
-    
+  text-align: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-image: url(img/az.jpg);
 }
 
 h1 {
-    font-size: 5.5rem;
-    font-family: 'Ranchers', cursive;
+  font-size: 5.5rem;
+  font-family: "Ranchers", cursive;
 }
 
 .name-header {
-    padding-top: 200px; 
-    /* text-shadow: 0 3px 20px -2px #000; */
+  padding-top: 200px;
+  color: #f0fff0;
+  /* text-shadow: 0 3px 20px -2px #000; */
 }
-
-
 
 .loml-header {
   padding: 100px 0 50px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 4.5rem;
   margin: 0 200px;
 }
-
-
 
 #loml i {
   font-size: 75px;
@@ -53,7 +47,6 @@ h1 {
   color: red;
   transform: rotateZ(40deg);
 }
-
 
 .content {
   text-align: center;
@@ -64,15 +57,11 @@ h1 {
   /* background-color: #eee; */
 }
 
-
-
-
-
 h2 {
-    margin-top: 3%;
-    font-size: 2.5rem;
-    font-family: 'Ranchers', cursive;
-    letter-spacing: 1.5px;
+  margin-top: 3%;
+  font-size: 2.5rem;
+  font-family: "Ranchers", cursive;
+  letter-spacing: 1.5px;
 }
 
 .timeline h3 {
@@ -83,34 +72,29 @@ h2 {
   border: solid 1px #fff;
   margin: 0 75px;
   z-index: 2;
-  font-family: 'Ranchers', cursive;
+  font-family: "Ranchers", cursive;
 }
 
 .h3-content {
-  font-family: 'Dancing Script', cursive; 
+  font-family: "Dancing Script", cursive;
   color: #fff;
   padding: 0 20%;
   font-size: 2.3rem;
 }
 
-
 .title-p {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.3rem;
-    line-height: 1.5;
-    margin: 1% 30%;
-    letter-spacing: 1.2px;
-    color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 1% 30%;
+  letter-spacing: 1.2px;
+  color: #fff;
 }
 
 .statement {
   padding: 0 250px;
   line-height: 1.3;
-  
 }
-
-
-
 
 /* NAVIGATION */
 
@@ -119,26 +103,25 @@ nav {
   right: 0;
   position: fixed;
   /* background: #f5f5f5; */
-  background: #000;
-  top:0;
+  background: #f0fff0;
+  top: 0;
   left: 0;
   box-shadow: 0 3px 10px -2px #fff;
   z-index: 3;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 18px;
 }
 nav ul {
   right: 0;
 }
 
-nav ul li{
-  display:inline-block;
+nav ul li {
+  display: inline-block;
   text-decoration: none;
   margin: 10px 15px;
   color: #fff;
   /* list-style: none; */
   font-size: 1.2rem;
- 
 }
 
 nav ul li a {
@@ -154,8 +137,6 @@ a:visited {
   text-decoration: none;
 }
 
-
-
 /* TIMELINE */
 .timeline-container {
   display: grid;
@@ -170,7 +151,7 @@ a:visited {
 .timeline {
   /* background-color: #000; */
   /* width: 100%; */
-  color: #000;;
+  color: #000;
   height: 300px;
   text-align: center;
   border-radius: 8px;
@@ -180,7 +161,6 @@ a:visited {
   text-align: center;
   padding: 5% 0 0;
   font-size: 2.5rem;
-  
 }
 
 .timeline-container .timeline.year2021 {
@@ -242,33 +222,41 @@ a:visited {
 .timeline:hover {
   box-shadow: 0 0 10px;
   transform: scale(1.01);
- 
 }
 
-.y2021, .y2020, .y2019, .y2018 , .y2017, .y2016, .y2015, .y2014 {
+.y2021,
+.y2020,
+.y2019,
+.y2018,
+.y2017,
+.y2016,
+.y2015,
+.y2014 {
   display: none;
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   font-size: 20px;
-  text-align: center; 
-   margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-
-.y2021 ul li, .y2020 ul li, .y2019 ul li, .y2018 ul li, .y2017 ul li, .y2016 ul li,
- .y2015 ul li , .y2014 ul li {
+.y2021 ul li,
+.y2020 ul li,
+.y2019 ul li,
+.y2018 ul li,
+.y2017 ul li,
+.y2016 ul li,
+.y2015 ul li,
+.y2014 ul li {
   list-style: none;
 }
 
-
-
-.header { 
+.header {
   font-size: 100px;
   padding: 20px 0 5px 0;
   color: #fff;
-  font-family: 'Ranchers', cursive;
+  font-family: "Ranchers", cursive;
 }
-
 
 .dates-container {
   display: flex;
@@ -277,12 +265,13 @@ a:visited {
   /* background-color: #eee; */
 }
 
-h5{
+h5 {
   font-size: 18px;
 }
 
-
-.vacay, .friends, .dates{
+.vacay,
+.friends,
+.dates {
   /* border: 2px solid #222; */
   border-radius: 10px;
   width: 300px;
@@ -290,10 +279,11 @@ h5{
   color: #fff;
   /* margin: 20px 0 50px; */
   padding: 50px 0 0;
-  
 }
 
-.vacay ul li , .friends ul li , .dates ul li {
+.vacay ul li,
+.friends ul li,
+.dates ul li {
   font-size: 14px;
 }
 
@@ -301,21 +291,19 @@ hr {
   width: 10%;
   margin: 50px auto;
   border-top: 1px dotted #eee;
-  overflow:hidden;
-  
+  overflow: hidden;
 }
 
-.fas.fa-utensils, .fas.fa-plane-departure, .fas.fa-users {
+.fas.fa-utensils,
+.fas.fa-plane-departure,
+.fas.fa-users {
   font-size: 30px;
 }
-
 
 .fun-pics {
   width: 250px;
   height: 300px;
   padding: 3px;
-
-  
 }
 
 .funtimes-pics-container {
@@ -338,7 +326,6 @@ hr {
   align-items: center;
   justify-content: center;
   /* margin: 0 10%; */
-  
 }
 
 #footer .footer-container ul li {
@@ -348,7 +335,6 @@ hr {
 
 #footer .footer-container ul li i {
   font-size: 30px;
-  
 }
 
 #footer .footer-container ul a:visited {
@@ -360,7 +346,6 @@ hr {
   padding-bottom: 30px;
   color: #fff;
 }
-
 
 .fa-facebook-square {
   color: #3b5998;
@@ -375,17 +360,13 @@ hr {
 }
 
 .fa-instagram-square {
-  color: #d6249f; 
+  color: #d6249f;
   /* color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
 }
 
-
 #loml {
   background-color: #eee;
- }
-
-
-
+}
 
 @media (max-width: 1175px) {
   .timeline-container {
@@ -406,10 +387,11 @@ hr {
     font-size: 3rem;
   }
 
-  .timeline-container .timeline.year2021, .timeline-container .timeline.year2020, .timeline-container .timeline.year2019, .timeline-container .timeline.year2018 {
-   
+  .timeline-container .timeline.year2021,
+  .timeline-container .timeline.year2020,
+  .timeline-container .timeline.year2019,
+  .timeline-container .timeline.year2018 {
     background-position: center center;
-   
   }
 }
 
@@ -419,7 +401,7 @@ hr {
   }
   .wrapper {
     background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   }
 
   .loml-header {
@@ -431,8 +413,6 @@ hr {
     width: 95%;
     height: 400px;
     padding: 2px;
-  
-    
   }
 
   .title-p {
@@ -443,7 +423,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     padding: 10px 0 0 0;
     height: 75px;
     width: 100px;
@@ -455,31 +435,14 @@ hr {
 
   .name-header {
     color: #fff;
-}
+  }
 
-.h3-content {
-  font-size: 1.6rem;
-  padding: 0 5%;
-}
-  
- 
+  .h3-content {
+    font-size: 1.6rem;
+    padding: 0 5%;
+  }
 
   #loml i {
     font-size: 2.5rem;
   }
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
