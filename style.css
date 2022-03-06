@@ -125,7 +125,7 @@ nav {
   top:0;
 >>>>>>> 3fef33031e93f474df565d38105fd3d00bab7120
   left: 0;
-  box-shadow: 0 3px 10px -2px #fff;
+  /* box-shadow: 0 3px 10px -2px #D5D5D5; */
   z-index: 3;
   font-family: "Dancing Script", cursive;
   font-size: 18px;
